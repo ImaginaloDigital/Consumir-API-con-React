@@ -3,11 +3,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Users() {
   const users = [
-    { id: 1, name: 'Ian Andres Abadia Alba', email: 'juan@example.com', role: 'Administrador' },
-    { id: 2, name: 'Carlos Andres Viveros', email: 'maria@example.com', role: 'Usuario' },
-    { id: 3, name: 'Rosa Isabel Rosero Cartagena', email: 'carlos@example.com', role: 'Moderador' },
-    { id: 4, name: 'Rubén Alejandro días Cardenas', email: 'ana@example.com', role: 'Usuario' },
-    { id: 5, name: 'Ana Laura Valencia Martínez', email: 'ruben@example.com', role: 'Administrador' },
+    { id: 1, name: 'Ian Andres Abadia Alba', email: 'ianandres@gmail.com', role: 'Administrador' },
+    { id: 2, name: 'Carlos Andres Viveros', email: 'carlosviveros@gmail.com', role: 'Programador Full Stack' },
+    { id: 3, name: 'Rosa Isabel Rosero Cartagena', email: 'rosarosero@gmail.com', role: 'Moderador' },
+    { id: 4, name: 'Rubén Alejandro días Cardenas', email: 'rubendias@gmail.com', role: 'Diseñador Backend' },
+    { id: 5, name: 'Ana Laura Valencia Martínez', email: 'anavalencia@gmail.com', role: 'Diseñadora Frontend' },
   ];
 
   return (
@@ -33,8 +33,7 @@ export default function Users() {
               <td>{user.email}</td>
               <td>{user.role}</td>
               <td>
-                <button className="btn btn-info btn-sm me-2">Editar</button>
-                <button className="btn btn-danger btn-sm">Eliminar</button>
+                <button className="btn btn-info btn-sm me-2">Contactar</button>
               </td>
             </tr>
           ))}
